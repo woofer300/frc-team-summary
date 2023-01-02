@@ -13,7 +13,10 @@ poetry install
 ```
 python main.py
 ```
-Note that you will have to paste in your TBA API key in every time you run the script. If you want to avoid having to do this repeatedly, you can paste your key into the auth_key variable on line 4 in main.py, and it will stop asking you.
+Note that you will have to paste in a TBA API key. If you don't have one yet, you can generate one at following link: https://www.thebluealliance.com/account/login?next=http%3A%2F%2Fwww.thebluealliance.com%2Faccount
+Sign in using your email, then click "Add New Key" in the "Read API Keys" section. Copy the key.
+
+If you want to avoid having to paste your key into the program every time you run it, you can paste your key into the auth_key variable on line 4 in main.py.
 
 When you're done, you can exit the poetry shell with the following command:
 ```
