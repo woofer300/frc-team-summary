@@ -1,5 +1,6 @@
 import team_summary
 
+# Paste your TBA API key as a string on the line below
 auth_key = ""
 if not auth_key:
     auth_key = input("Please paste your TBA API key.\n")
