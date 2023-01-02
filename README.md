@@ -1,6 +1,8 @@
 # frc-team-summary
 Command line program that summarizes a FRC team's season
 
+![FRC Team Summary Demo](docs/images/frc-team-summary-demo.png)
+
 Want to try it out? Follow these steps.
 1. Install poetry from https://python-poetry.org/docs/#installation
 2. Clone this project
