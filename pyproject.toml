@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "frc-team-summary"
+version = "0.1.0"
+description = ""
+authors = ["Chris Voon <christopher.voon@gmail.com>"]
+readme = "README.md"
+packages = [{include = "frc_team_summary"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
